@@ -1,0 +1,66 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch test4",
+            "request": "launch",
+            "mainClass": "cypt.test4",
+            "projectName": "brute-force"
+        },
+        {
+            "type": "java",
+            "name": "Launch test3",
+            "request": "launch",
+            "mainClass": "cypt.test3",
+            "projectName": "brute-force"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "cypt.test2",
+            "projectName": "brute-force"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "cypt.Test",
+            "projectName": "brute-force"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "cypt.test",
+            "projectName": "brute-force"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "cypt.App",
+            "projectName": "brute-force",
+            "args": [
+                "-a",
+                "sha256",
+                "-l",
+                "6",
+                "-t",
+                "27A77F49FD908494422C415F88D61663859E0E119500796293B1D1E2F3355C80",
+                "-p",
+                "abcdefghijklmnopqrstuvwxyz0123456789"
+            ]
+        }
+    ]
+}
